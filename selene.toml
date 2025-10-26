@@ -1,0 +1,4 @@
+# Selene config for Roblox standard library
+std = "roblox"
+
+# You can tweak other settings here as needed

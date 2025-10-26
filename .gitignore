@@ -1,0 +1,74 @@
+# ==================================================================
+# Suggested .gitignore for Roblox / Luau projects
+# Tailor as needed for your team's workflow.
+# ==================================================================
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary / swap files
+*.swp
+*.tmp
+*.temp
+~$*
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+secrets/
+*.secret
+
+# Node / Python / other deps (safe to ignore if not used)
+node_modules/
+venv/
+__pycache__/
+
+# Roblox / Studio files (local exports, user-specific or temporary saves)
+# Keep repository-managed place files out of VCS unless intentionally tracked.
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+*.rbxmk
+*.rbxproj
+
+# Roblox exported asset files
+*.rbxasset
+
+# Roblox Studio lock files (some workflows produce these)
+*.rbxlx.lock
+*.rbxl.lock
+
+# Wally / package caches (if generated locally)
+.wally/
+
+# Lua / Luau language server and linters
+.lua-language-server/
+.luacheck/
+luacheck.cache
+
+# Misc
+coverage/
+
+# OneDrive / platform-specific sync artifacts
+~*.tmp
+
+# NOTE: By default this file does NOT ignore the repository's `Packages/` folder
+# because this project tracks the `Packages/` vendor folder in the repo. If you
+# prefer to fetch packages on install and not commit them, uncomment the line
+# below to ignore the folder.
+# Packages/
+
+# Keep any project-specific allowlist entries below
