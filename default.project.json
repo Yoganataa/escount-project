@@ -4,16 +4,16 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "$className": "ReplicatedStorage",
       "Packages": {
         "$path": "Packages"
       }
     },
 
-    "StarterPlayerScripts": {
-      "$className": "StarterPlayerScripts",
-      "MyTopbarSystem": {
-        "$path": "MyTopbarSystem"
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "MyTopbarSystem": {
+          "$path": "MyTopbarSystem"
+        }
       }
     }
   }
